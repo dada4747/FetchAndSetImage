@@ -1,0 +1,16 @@
+PODS:
+  - FetchAndSetImage (0.1.0)
+
+DEPENDENCIES:
+  - FetchAndSetImage (from `../`)
+
+EXTERNAL SOURCES:
+  FetchAndSetImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FetchAndSetImage: 48678247edbc1308f22231ea69aea0af052d2a52
+
+PODFILE CHECKSUM: 8c067cfcbd8543ec74e6c6a95ff14cf480ed3e4b
+
+COCOAPODS: 1.10.1

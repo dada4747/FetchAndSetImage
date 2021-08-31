@@ -1,0 +1,6 @@
+framework module Pods_FetchAndSetImage_Tests {
+  umbrella header "Pods-FetchAndSetImage_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

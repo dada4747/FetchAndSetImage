@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		0C54013D3021B9C5BE94B7E9 /* Pods_FetchAndSetImage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchAndSetImage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34192D452AA5EFD7C1A7073D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3901B76A9477B7D8CCC95476 /* FetchAndSetImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FetchAndSetImage.podspec; path = ../FetchAndSetImage.podspec; sourceTree = "<group>"; };
+		34192D452AA5EFD7C1A7073D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3901B76A9477B7D8CCC95476 /* FetchAndSetImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FetchAndSetImage.podspec; path = ../FetchAndSetImage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3F8503A815961C0FB623D412 /* Pods-FetchAndSetImage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchAndSetImage_Example.debug.xcconfig"; path = "Target Support Files/Pods-FetchAndSetImage_Example/Pods-FetchAndSetImage_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FetchAndSetImage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchAndSetImage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9D6F36EC5D55FE21561430B8 /* Pods-FetchAndSetImage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchAndSetImage_Tests.release.xcconfig"; path = "Target Support Files/Pods-FetchAndSetImage_Tests/Pods-FetchAndSetImage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A988FE53E2C6A63DD3209B28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A988FE53E2C6A63DD3209B28 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B9ECCA5B22A28F1E1BE40556 /* Pods_FetchAndSetImage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FetchAndSetImage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E753D889542711D4A841ACA3 /* Pods-FetchAndSetImage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchAndSetImage_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FetchAndSetImage_Tests/Pods-FetchAndSetImage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F23478B737A5E6A78E94206F /* Pods-FetchAndSetImage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FetchAndSetImage_Example.release.xcconfig"; path = "Target Support Files/Pods-FetchAndSetImage_Example/Pods-FetchAndSetImage_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				E753D889542711D4A841ACA3 /* Pods-FetchAndSetImage_Tests.debug.xcconfig */,
 				9D6F36EC5D55FE21561430B8 /* Pods-FetchAndSetImage_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

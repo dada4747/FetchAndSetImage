@@ -1,0 +1,22 @@
+{
+  "name": "FetchAndSetImage",
+  "version": "0.1.0",
+  "summary": "A short description of FetchAndSetImage.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dada4747/FetchAndSetImage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dada4747": "adsurerahul96@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dada4747/FetchAndSetImage.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FetchAndSetImage/Classes/**/*"
+}

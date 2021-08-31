@@ -1,0 +1,6 @@
+framework module FetchAndSetImage {
+  umbrella header "FetchAndSetImage-umbrella.h"
+
+  export *
+  module * { export * }
+}
