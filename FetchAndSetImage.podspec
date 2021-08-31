@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'FetchAndSetImage'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of FetchAndSetImage.'
+  s.summary          = 'FetchAndSetImage is a set image to UIViewImage using URL.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'FetchAndSetImage is a set image to UIViewImage using URL.'
                        DESC
 
   s.homepage         = 'https://github.com/dada4747/FetchAndSetImage'
@@ -26,11 +26,15 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dada4747' => 'adsurerahul96@gmail.com' }
   s.source           = { :git => 'https://github.com/dada4747/FetchAndSetImage.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://www.linkedin.com/in/rahul-adsure-186a9b16a/'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'FetchAndSetImage/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+      "ios": "12.0"
+  }
   
   # s.resource_bundles = {
   #   'FetchAndSetImage' => ['FetchAndSetImage/Assets/*.png']
